@@ -1,0 +1,75 @@
+
+h3{
+    //styleName: Heading H2;
+    font-family: Sen;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+}
+
+.Wrapper__cards {
+    padding-top: 64px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+  .cart {
+   padding-bottom: 30px;
+//    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   transition: .3s ease;
+     &:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      
+     }
+    img{
+        width: 405px;
+        height: 318px;
+        top: 1006px;
+        left: 80px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    p{
+        //styleName: Label 01;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        padding-top: 32px;
+    }
+    h3{
+        //styleName: Heading H3;
+        font-family: Sen;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1px;
+        text-align: left;
+        width: 405px;
+        height: 120px;
+        top: 1392px;
+        left: 80px;
+        gap: 0px;
+        opacity: 0px;
+        padding-top: 16px;
+        overflow: hidden;
+    }
+    #l{
+        width: 405px;
+        height: 84px;
+        top: 1528px;
+        left: 80px;
+        gap: 0px;
+        opacity: 0.7px;
+        //styleName: Body 1;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        margin-top: -70px;
+    }
+  }
+}
