@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+
+.busnes{
+        width: 1440px;
+        height: 348px;
+        top: 80px;
+        gap: 0px;
+        opacity: 0px;
+        background: #F4F0F8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 80px;
+        // padding-left: 463px;
+        padding-bottom: 80px;
+        margin-top: 100px;
+        padding-right: 80px;
+      .text {
+        h3{
+            //styleName: Display;
+            font-family: Sen;
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 64px;
+            letter-spacing: -2px;
+            text-align: center;
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 64px;
+            letter-spacing: -2px;
+            text-align: center;
+        }
+        p{
+            width: 515px;
+            height: 56px;
+            top: 240px;
+            left: 462px;
+            gap: 0px;
+            opacity: 0px;
+            //styleName: Body 1;
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            text-align: center;
+            padding-top: 16px;
+        }
+        #tr{
+            //styleName: Cap 03;
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 3px;
+            text-align: center;
+            color: #232536;
+            padding-top: 32px;
+        }
+      }
+}
+.search {
+    margin-top: 67px;
+    z-index: 1;
+    // border: 1px solid #6D6E7680;
+    width: 1280px;
+    height: 76px;
+    top: 485px;
+    left: 79px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+  input{
+    border: 1px solid #6D6E7680;
+    width: 1280px;
+    height: 76px;
+    top: 485px;
+    left: 79px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    outline: none;
+    padding: 10px;
+  }
+
+}
+.busnes__batom {
+  display: flex;    
+  justify-content: center;
+  gap: 50px;
+  padding-top: 60px;
+   .rasm {
+     img{
+        width: 447.65px;
+        height: 312px;
+        top: 618px;
+        left: 83.04px;
+        gap: 0px;
+        opacity: 0px;
+     }
+   }
+   .bloc {
+     display: block;
+   }
+   .txt {
+     p{//styleName: Cap 1;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-align: left;
+        color: #592EA9;
+        padding-top: -40px;
+        }
+        h3{
+            //styleName: Heading H2;
+            font-family: Sen;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: -2px;
+            text-align: left;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: -2px;
+            text-align: left;
+            padding-top: 20px;
+        }
+        #pp{
+            //styleName: Body 1;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: #000;
+max-width:779.58px;
+width: 100%;
+height: 56px;
+top: 770px;
+left: 579.42px;
+gap: 0px;
+opacity: 0px;
+padding-top: 64px;
+
+        }
+   }
+}

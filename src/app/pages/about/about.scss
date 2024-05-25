@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }  
+
+.card {
+    width: 1280px;
+    height: 441px;
+    top: 130px;
+    left: 80px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F4F0F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // padding: 40px;
+    // padding-top: 83px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    // padding-right: 80px;
+    margin-top: 130px;
+    gap: 24px;
+    .teext {
+        // padding-top: 43px;
+
+      p{
+        //styleName: Cap 1;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-align: left;
+        color: #232536;
+      }
+      h3{
+        //styleName: Heading H3;
+        font-family: Sen;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1px;
+        text-align: left;
+        color: #232536;
+        padding-top: 24px;
+      }
+      #f{
+        width: 630px;
+        height: 109px;
+        top: 353px;
+        left: 166px;
+        gap: 0px;
+        opacity: 0px;
+        //styleName: Body 1;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color: #6D6E76;
+        padding-top: 16px;
+      }
+    }
+}
+
+.cart__flex {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  justify-content: space-evenly;
+  padding-top: 122px;
+   
+   .tx {
+     h3{
+        //styleName: Heading H2;
+        font-family: Sen;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2px;
+        text-align: left;
+        color: #232536;
+     }
+     h4{
+        //styleName: Heading H4;
+        font-family: Sen;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+        padding-top: 16px;
+     }
+     p{
+        //styleName: Body 1;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color: #232536;
+        padding-top: 16px;
+     }
+   }
+   .cart__img {
+     img{
+        max-width:624px;
+        width: 100%;
+        height: 480px;
+        top: 693px;
+        left: 736px;
+        gap: 0px;
+        opacity: 0px;
+
+     }
+   }
+}

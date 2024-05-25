@@ -52,13 +52,13 @@ const Navbar = () => {
         <div className={`nav__items ${isOpen ? 'show' : ''}`}>
           <div className="items">
             <Link href="/">Home</Link>
-            <Link href="/blog">Blog</Link>
-            <Link href="/about-us">About Us</Link>
+            <Link href="/pages/blog">Blog</Link>
+            <Link href="/pages/about">About Us</Link>
             <Link href="/contact-us">Contact Us</Link>
           </div>
 
           <div className="nav_btn">
-            <Link href="/login">
+            <Link href="/pages/login">
               <button>Login</button>
             </Link>
           </div>

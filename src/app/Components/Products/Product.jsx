@@ -1,10 +1,15 @@
-"use client";
+import { DiTechcrunch } from "react-icons/di"; 
+import { SiMicrostrategy } from "react-icons/si"; 
+import { IoMdBusiness } from "react-icons/io"; 
+import { BsFillRocketTakeoffFill } from "react-icons/bs"; 
+// "use client";
 import React from 'react'
 import './Product.scss'
 import Image from 'next/image'
+import Footer from "../Footer/Footer";
 
 async function getData() {
-    
+
     const res = await fetch("https://dummyjson.com/products");
   
     if (!res.ok) {
@@ -31,15 +36,36 @@ const Product = async () => {
     <h3>Popular blogs</h3>
     
     <div className="Wrapper__cards">
- 
         {Data}
+    </div>
+    <h3 id="centr">Choose A Catagory</h3> 
 
+    <div className="box">
 
-
+        <div className="box__1">
+            <div className="icon"><IoMdBusiness /></div>
+            <h3>Business</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div className="box__1" id="yelow">
+            <div className="icon"><BsFillRocketTakeoffFill /></div>
+            <h3>Startup</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div className="box__1">
+            <div className="icon"><SiMicrostrategy /></div>
+            <h3>Economy</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div className="box__1">
+            <div className="icon"><DiTechcrunch /></div>
+            <h3>Technology</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
     </div>
     
     
-    
+    <Footer/>
     
     </>
   )

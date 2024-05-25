@@ -1,13 +1,13 @@
 import React from 'react'
 import Home from './Components/Home/Home'
 import Head from 'next/head'
+import Footer from './Components/Footer/Footer'
 
 const page = () => {
   return (
    <>
     <Home/>
-   
-   
+    
    
    </>
   )
